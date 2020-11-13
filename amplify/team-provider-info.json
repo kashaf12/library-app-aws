@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-libraryappamplified-dev-183257-authRole",
+      "UnauthRoleArn": "arn:aws:iam::448605878489:role/amplify-libraryappamplified-dev-183257-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::448605878489:role/amplify-libraryappamplified-dev-183257-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-libraryappamplified-dev-183257-deployment",
+      "UnauthRoleName": "amplify-libraryappamplified-dev-183257-unauthRole",
+      "StackName": "amplify-libraryappamplified-dev-183257",
+      "StackId": "arn:aws:cloudformation:us-east-1:448605878489:stack/amplify-libraryappamplified-dev-183257/3e13a720-1f67-11eb-b698-0e8a1126433d",
+      "AmplifyAppId": "d2hvlefc0k326f"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2hvlefc0k326f",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "libraryappamplifiedbe5aa2cd": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"454333339482-tisf1iu6q2gsfc27gf8m9f52tl682rsk.apps.googleusercontent.com\",\"client_secret\":\"454333339482-tisf1iu6q2gsfc27gf8m9f52tl682rsk.apps.googleusercontent.com\"}]"
+        }
+      }
+    }
+  }
+}

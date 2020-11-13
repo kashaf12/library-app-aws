@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "libraryappamplified",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authlibraryappamplifiedbe5aa2cd",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

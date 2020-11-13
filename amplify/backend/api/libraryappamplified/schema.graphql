@@ -1,0 +1,13 @@
+type Book 
+  @model 
+  @auth(rules: [
+      {allow: public, operations:[read], provider: apiKey},
+      {allow: groups, groups: ["Admins"], operations: [create, read, update, delete]}
+    ]){
+  id: ID!
+  name: String!
+  author: String!,
+  description: String,
+  available: Boolean!,
+  score: Float!
+}
